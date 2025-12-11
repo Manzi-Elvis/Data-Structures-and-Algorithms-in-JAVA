@@ -1,4 +1,4 @@
-/* *
+/*
   Description:
   The Node class represents a single vertex in the graph. Instead of using basic
   integers or strings, having a dedicated Node object makes the entire graph
