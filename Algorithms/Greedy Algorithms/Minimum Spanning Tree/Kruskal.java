@@ -1,32 +1,30 @@
-/**
- * Kruskal's Algorithm (Minimum Spanning Tree - Greedy)
- *
- * Description:
- * --------------------
- * Kruskal’s algorithm builds a Minimum Spanning Tree (MST) by always choosing
- * the edge with the smallest weight that does NOT form a cycle.
- *
- * It uses the Disjoint Set Union (Union-Find) structure to efficiently
- * track connected components and detect cycles.
- *
- * Why It Works:
- * --------------------
- * By always picking the lightest safe edge, Kruskal guarantees a globally
- * minimal total cost — a classic greedy strategy that’s both elegant
- * and powerful.
- *
- * Use Cases:
- * --------------------
- * - Network design (internet cables, water pipelines, electrical grids)
- * - Reducing cost in connected systems
- * - Cluster analysis in machine learning
- *
- * Time Complexity:
- * --------------------
- * - Sorting edges: O(E log E)
- * - Union-Find operations: almost O(1)
- * 
- * Total: O(E log E)
+/*
+  Description:
+  --------------------
+  Kruskal’s algorithm builds a Minimum Spanning Tree (MST) by always choosing
+  the edge with the smallest weight that does NOT form a cycle.
+ 
+  It uses the Disjoint Set Union (Union-Find) structure to efficiently
+  track connected components and detect cycles.
+ 
+  Why It Works:
+  --------------------
+  By always picking the lightest safe edge, Kruskal guarantees a globally
+  minimal total cost — a classic greedy strategy that’s both elegant
+  and powerful.
+  
+   Use Cases:
+  --------------------
+  - Network design (internet cables, water pipelines, electrical grids)
+  - Reducing cost in connected systems
+  - Cluster analysis in machine learning
+ 
+  Time Complexity:
+  --------------------
+  - Sorting edges: O(E log E)
+  - Union-Find operations: almost O(1)
+  
+  Total: O(E log E)
  */
 
 import java.util.*;
