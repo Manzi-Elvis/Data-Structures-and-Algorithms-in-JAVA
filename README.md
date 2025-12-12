@@ -26,70 +26,95 @@ Every algorithm here is designed to make learning **fun, practical, and easy to 
 
   ##  REPO STRUCTURE: 
 ```
-|Data Structures and Algorithms
-|  data_structures/
-│ │ │ └── graphs/
-│ │ │ ├── Graph.java
-│ │ │ ├── Node.java
-│ │ │ ├── Edge.java
-│ │ │ └── GraphUtils.java
-│ ├── algorithms/
-│ │ ├── search/
-│ │ │ ├── LinearSearch.java
-│ │ │ ├── BinarySearch.java
-│ │ │ ├── JumpSearch.java
-│ │ │ ├── InterpolationSearch.java
-│ │ │ ├── ExponentialSearch.java
-│ │ │ └── TernarySearch.java
-│ │ ├── sorting/
-│ │ │ ├── BubbleSort.java
-│ │ │ ├── SelectionSort.java
-│ │ │ ├── InsertionSort.java
-│ │ │ ├── MergeSort.java
-│ │ │ ├── QuickSort.java
-│ │ │ ├── HeapSort.java
-│ │ │ ├── ShellSort.java
-│ │ │ ├── CountingSort.java
-│ │ │ ├── RadixSort.java
-│ │ │ └── BucketSort.java
-│ │ ├── hashing/
-│ │ │ ├── HashTableChaining.java
-│ │ │ ├── HashTableOpenAddressing.java
-│ │ │ ├── HashFunctions.java
-│ │ │ └── CustomHashMap.java
-│ │ ├── graph_algorithms/
-│ │ │ ├── DFS.java
-│ │ │ ├── BFS.java
-│ │ │ ├── Dijkstra.java
-│ │ │ ├── BellmanFord.java
-│ │ │ ├── FloydWarshall.java
-│ │ │ └── AStar.java
-│ │ ├── greedy/
-│ │ │ ├── ActivitySelection.java
-│ │ │ ├── FractionalKnapsack.java
-│ │ │ ├── HuffmanCoding.java
-│ │ │ ├── JobSequencing.java
-│ │ │ └── MinimumSpanningTree/
-│ │ │ ├── Kruskal.java
-│ │ │ └── Prim.java
-│ │ ├── dynamic_programming/
-│ │ │ ├── FibonacciDP.java
-│ │ │ ├── LongestCommonSubsequence.java
-│ │ │ ├── LongestIncreasingSubsequence.java
-│ │ │ ├── EditDistance.java
-│ │ │ ├── Knapsack01.java
-│ │ │ ├── CoinChange.java
-│ │ │ └── MatrixChainMultiplication.java
-│ │ └── string_algorithms/
-│ │ ├── NaiveStringSearch.java
-│ │ ├── KMP.java
-│ │ ├── BoyerMoore.java
-│ │ ├── RabinKarp.java
-│ │ ├── ZAlgorithm.java
-│ │ ├── LongestPalindromeSubstring.java
-│ │ ├── AnagramCheck.java
-│ │ └── PatternMatchingBasics.java
-  
+ Data Structures and Algorithms
+├── data_structures/
+|   ├── Linear Data Structures/
+|   |    ├── Arrays/
+|   |    |     ├── Array Basics.java
+|   |    |     └── Dynamic Array.java
+|   |    |
+|   |    ├── Linked-lists/
+|   |    |     ├── Circular-linked-list.java
+|   |    |     ├── Circular-linked-list.java
+|   |    |     ├── Doubly-linked-list.java
+|   |    |     └── Singly-linked-list.java
+|   |    ├── Queues/
+|   |    |     ├── Dequeue.java
+|   |    |     ├── Queue Array.java
+|   |    |     └── Queue Linked-list.java
+|   |    |
+|   |    └── Stacks/
+|   |         ├── Stack Array.java
+|   |         └── Stack Linked-list.java
+|   |        
+│   └── Non-linear Data Structures/
+|         ├── Graphs/
+|         |    ├── Edge.java
+|         |    ├── Graph Utils.java
+|         |    ├── Graph.java
+|         |    └── Node.java
+|         └── Trees/
+|              ├── AVL Tree.java
+|              ├── Binary Search Tree.java
+|              ├── Binary Tree.java
+|              ├── Red-Black Tree.java
+|              └── Segment Tree.java
+└── algorithms/
+     ├── search/
+     │    ├── LinearSearch.java
+     │    ├── BinarySearch.java
+     │    ├── JumpSearch.java
+     │    ├── InterpolationSearch.java
+     │    ├── ExponentialSearch.java
+     │    └── TernarySearch.java
+     ├── sorting/
+     │    ├── BubbleSort.java
+     │    ├── SelectionSort.java
+     │    ├── InsertionSort.java
+     │    ├── MergeSort.java
+     │    ├── QuickSort.java
+     │    ├── HeapSort.java
+     │    ├── ShellSort.java
+     │    ├── CountingSort.java
+     │    ├── RadixSort.java
+     │    └── BucketSort.java
+     ├── hashing/
+     │    ├── HashTableChaining.java
+     │    ├── HashTableOpenAddressing.java
+     │    ├── HashFunctions.java
+     │    └── CustomHashMap.java
+     ├── graph_algorithms/
+     │    ├── DFS.java
+     │    ├── BFS.java
+     │    ├── Dijkstra.java
+     │    ├── BellmanFord.java
+     │    ├── FloydWarshall.java
+     │    └── AStar.java
+     ├── greedy/
+     │    ├── ActivitySelection.java
+     │    ├── FractionalKnapsack.java
+     │    ├── HuffmanCoding.java
+     │    ├── JobSequencing.java
+     │    ├── MinimumSpanningTree/
+     │    ├── Kruskal.java
+     │    └── Prim.java
+     ├── dynamic_programming/
+     │    ├── FibonacciDP.java
+     │    ├── LongestCommonSubsequence.java
+     │    ├── LongestIncreasingSubsequence.java
+     │    ├── EditDistance.java
+     │    ├── Knapsack01.java
+     │    ├── CoinChange.java
+     │    └── MatrixChainMultiplication.java
+     └── string_algorithms/
+         ├── NaiveStringSearch.java
+         ├── KMP.java
+         ├── BoyerMoore.java
+         ├── RabinKarp.java
+         ├── ZAlgorithm.java
+         ├── LongestPalindromeSubstring.java
+         ├── AnagramCheck.java
+         └── PatternMatchingBasics.java
 ```
 
 ---
