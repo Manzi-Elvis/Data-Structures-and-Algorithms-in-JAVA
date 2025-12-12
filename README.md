@@ -26,7 +26,8 @@ Every algorithm here is designed to make learning **fun, practical, and easy to 
 
   ##  REPO STRUCTURE: 
 ```
- data_structures/
+|Data Structures and Algorithms
+|  data_structures/
 │ │ │ └── graphs/
 │ │ │ ├── Graph.java
 │ │ │ ├── Node.java
