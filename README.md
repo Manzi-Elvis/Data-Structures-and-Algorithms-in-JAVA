@@ -25,7 +25,7 @@ Every algorithm here is designed to make learning **fun, practical, and easy to 
 ---
 
   ##  REPO STRUCTURE: 
-
+```
 data_structures/
 │                       │   ├── linear/
 │                       │   │   ├── arrays/
@@ -111,7 +111,7 @@ data_structures/
 │                       │       ├── AnagramCheck.java
 │                       │       └── PatternMatchingBasics.java
   
- 
+```
 
 ---
 
