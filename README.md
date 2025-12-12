@@ -26,66 +26,90 @@ Every algorithm here is designed to make learning **fun, practical, and easy to 
 
   ##  REPO STRUCTURE: 
 
-### 2. Algorithms  
- |-- Dynamic Programming
-    |-- Coin Change.java
-    |-- Edit Distance.java
-    |-- Fibonacci.java
-    |-- Knapsack01.java
-    |-- Longest Common Sequence.java
-    |-- Longest Increasing Subsequence.java
-    |-- Matrix Chain Multiplication.java
- |-- Graph Algorithms
-    |-- AStar.java
-    |-- BellmanFord.java
-    |-- Breadth-First Search.java
-    |-- DFS.java
-    |-- Dijkstra.java
-    |-- Floyd Warshall.java
-    |-- Graph.java
-    |-- Node.java
-  |-- Sorting Algorithms
-    |-- Bubble Sort.java
-    |-- Bucket Sort.java
-    |-- Counting Sort.java
-    |-- Heap Sort.java
-    |-- Insertion Sort.java
-    |-- Merge Sort.java
-    |-- Quick Sort.java
-    |-- Radix Sort.java
-    |-- Selection Sort.java
-    |-- Shell Sort.java
- |-- Search Algorithms
-    |-- Binary Search.java
-    |-- Exponential Search.java
-    |-- Fibonacci Search.java
-    |-- Interpolation Search.java
-    |-- Jump Search.java
-    |-- Linear Search.java
-    |-- Ternary Search.java
- |-- String Algorithms
-    |-- Anagram Check.java
-    |-- Boyer-Moore.java
-    |-- Knuth–Morris–Pratt (KMP) Algorithm.java
-    |-- Longest Palindrome Substring.java
-    |-- Naïve String Search.java
-    |-- Pattern Matching Basics.java
-    |-- Rabin-Karp.java
-    |-- ZAlgorithm.java
- |-- Greedy Algorithms
-    |-- Activity Selection.java
-    |-- FractionalKnapsack.java
-    |-- Huffman Coding.java
-    |-- Job Sequencing.java
-    |-- Minimum Spanning Tree
-    |-- Kruskal.java
-    |-- Prim.java
- |-- Hashing Algorithms
-  |-- Custom HashMap.java
-  |-- Hash Table Chaining.java
-  |-- Hash Table Open Addressing.java
-  |-- Hashing Functions
-    |-- Hash Functions.java
+data_structures/
+│                       │   ├── linear/
+│                       │   │   ├── arrays/
+│                       │   │   │   ├── ArrayBasics.java
+│                       │   │   │   └── DynamicArray.java
+│                       │   │   ├── linked_lists/
+│                       │   │   │   ├── SinglyLinkedList.java
+│                       │   │   │   ├── DoublyLinkedList.java
+│                       │   │   │   └── CircularLinkedList.java
+│                       │   │   ├── stacks/
+│                       │   │   │   ├── StackArray.java
+│                       │   │   │   └── StackLinkedList.java
+│                       │   │   └── queues/
+│                       │   │       ├── QueueArray.java
+│                       │   │       ├── QueueLinkedList.java
+│                       │   │       └── Deque.java
+│                       │   ├── non_linear/
+│                       │   │   ├── trees/
+│                       │   │   │   ├── BinaryTree.java
+│                       │   │   │   ├── BinarySearchTree.java
+│                       │   │   │   ├── AVLTree.java
+│                       │   │   │   ├── RedBlackTree.java
+│                       │   │   │   └── SegmentTree.java
+│                       │   │   └── graphs/
+│                       │   │       ├── Graph.java
+│                       │   │       ├── Node.java
+│                       │   │       ├── Edge.java
+│                       │   │       └── GraphUtils.java
+│                       ├── algorithms/
+│                       │   ├── search/
+│                       │   │   ├── LinearSearch.java
+│                       │   │   ├── BinarySearch.java
+│                       │   │   ├── JumpSearch.java
+│                       │   │   ├── InterpolationSearch.java
+│                       │   │   ├── ExponentialSearch.java
+│                       │   │   └── TernarySearch.java
+│                       │   ├── sorting/
+│                       │   │   ├── BubbleSort.java
+│                       │   │   ├── SelectionSort.java
+│                       │   │   ├── InsertionSort.java
+│                       │   │   ├── MergeSort.java
+│                       │   │   ├── QuickSort.java
+│                       │   │   ├── HeapSort.java
+│                       │   │   ├── ShellSort.java
+│                       │   │   ├── CountingSort.java
+│                       │   │   ├── RadixSort.java
+│                       │   │   └── BucketSort.java
+│                       │   ├── hashing/
+│                       │   │   ├── HashTableChaining.java
+│                       │   │   ├── HashTableOpenAddressing.java
+│                       │   │   ├── HashFunctions.java
+│                       │   │   └── CustomHashMap.java
+│                       │   ├── graph_algorithms/
+│                       │   │   ├── DFS.java
+│                       │   │   ├── BFS.java
+│                       │   │   ├── Dijkstra.java
+│                       │   │   ├── BellmanFord.java
+│                       │   │   ├── FloydWarshall.java
+│                       │   │   └── AStar.java
+│                       │   ├── greedy/
+│                       │   │   ├── ActivitySelection.java
+│                       │   │   ├── FractionalKnapsack.java
+│                       │   │   ├── HuffmanCoding.java
+│                       │   │   ├── JobSequencing.java
+│                       │   │   └── MinimumSpanningTree/
+│                       │   │       ├── Kruskal.java
+│                       │   │       └── Prim.java
+│                       │   ├── dynamic_programming/
+│                       │   │   ├── FibonacciDP.java
+│                       │   │   ├── LongestCommonSubsequence.java
+│                       │   │   ├── LongestIncreasingSubsequence.java
+│                       │   │   ├── EditDistance.java
+│                       │   │   ├── Knapsack01.java
+│                       │   │   ├── CoinChange.java
+│                       │   │   └── MatrixChainMultiplication.java
+│                       │   └── string_algorithms/
+│                       │       ├── NaiveStringSearch.java
+│                       │       ├── KMP.java
+│                       │       ├── BoyerMoore.java
+│                       │       ├── RabinKarp.java
+│                       │       ├── ZAlgorithm.java
+│                       │       ├── LongestPalindromeSubstring.java
+│                       │       ├── AnagramCheck.java
+│                       │       └── PatternMatchingBasics.java
   
  
 
