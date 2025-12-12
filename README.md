@@ -26,14 +26,67 @@ Every algorithm here is designed to make learning **fun, practical, and easy to 
 
   ##  REPO STRUCTURE: 
 
-### 1. Data Structures
-- Bubble Sort    
-
-### 2. Algorithms
-- Linear Search  
-- Binary Search  
-- Jump Search  
-- Interpolation Search  
+### 2. Algorithms  
+ |-- Dynamic Programming
+    |-- Coin Change.java
+    |-- Edit Distance.java
+    |-- Fibonacci.java
+    |-- Knapsack01.java
+    |-- Longest Common Sequence.java
+    |-- Longest Increasing Subsequence.java
+    |-- Matrix Chain Multiplication.java
+ |-- Graph Algorithms
+    |-- AStar.java
+    |-- BellmanFord.java
+    |-- Breadth-First Search.java
+    |-- DFS.java
+    |-- Dijkstra.java
+    |-- Floyd Warshall.java
+    |-- Graph.java
+    |-- Node.java
+  |-- Sorting Algorithms
+    |-- Bubble Sort.java
+    |-- Bucket Sort.java
+    |-- Counting Sort.java
+    |-- Heap Sort.java
+    |-- Insertion Sort.java
+    |-- Merge Sort.java
+    |-- Quick Sort.java
+    |-- Radix Sort.java
+    |-- Selection Sort.java
+    |-- Shell Sort.java
+ |-- Search Algorithms
+    |-- Binary Search.java
+    |-- Exponential Search.java
+    |-- Fibonacci Search.java
+    |-- Interpolation Search.java
+    |-- Jump Search.java
+    |-- Linear Search.java
+    |-- Ternary Search.java
+ |-- String Algorithms
+    |-- Anagram Check.java
+    |-- Boyer-Moore.java
+    |-- Knuth–Morris–Pratt (KMP) Algorithm.java
+    |-- Longest Palindrome Substring.java
+    |-- Naïve String Search.java
+    |-- Pattern Matching Basics.java
+    |-- Rabin-Karp.java
+    |-- ZAlgorithm.java
+ |-- Greedy Algorithms
+    |-- Activity Selection.java
+    |-- FractionalKnapsack.java
+    |-- Huffman Coding.java
+    |-- Job Sequencing.java
+    |-- Minimum Spanning Tree
+    |-- Kruskal.java
+    |-- Prim.java
+ |-- Hashing Algorithms
+  |-- Custom HashMap.java
+  |-- Hash Table Chaining.java
+  |-- Hash Table Open Addressing.java
+  |-- Hashing Functions
+    |-- Hash Functions.java
+  
  
 
 ---
